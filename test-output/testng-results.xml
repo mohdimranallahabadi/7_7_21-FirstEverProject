@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title didn't match]]>
+    </line>
+    <line>
+      <![CDATA[Title mismatch]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18833" started-at="2021-07-07T18:25:39 IST" finished-at="2021-07-07T18:25:58 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18833" started-at="2021-07-07T18:25:39 IST" finished-at="2021-07-07T18:25:58 IST">
+      <class name="com.scripts.MavenActitime.TestSignUpToFacebook">
+        <test-method status="PASS" signature="urlChoseMethod()[pri:0, instance:com.scripts.MavenActitime.TestSignUpToFacebook@cb51256]" name="urlChoseMethod" is-config="true" duration-ms="15" started-at="2021-07-07T18:25:39 IST" finished-at="2021-07-07T18:25:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlChoseMethod -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestSignUpToFacebook@cb51256]" name="openBrowser" is-config="true" duration-ms="4817" started-at="2021-07-07T18:25:39 IST" finished-at="2021-07-07T18:25:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestSignUpToFacebook@cb51256]" name="urlEntering" is-config="true" duration-ms="3180" started-at="2021-07-07T18:25:44 IST" finished-at="2021-07-07T18:25:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlEntering -->
+        <test-method status="PASS" signature="facebookSignUp()[pri:0, instance:com.scripts.MavenActitime.TestSignUpToFacebook@cb51256]" name="facebookSignUp" duration-ms="8618" started-at="2021-07-07T18:25:47 IST" finished-at="2021-07-07T18:25:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Title didn't match]]>
+            </line>
+            <line>
+              <![CDATA[Title mismatch]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- facebookSignUp -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.scripts.MavenActitime.TestSignUpToFacebook@cb51256]" name="quitBrowser" is-config="true" duration-ms="2129" started-at="2021-07-07T18:25:56 IST" finished-at="2021-07-07T18:25:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.scripts.MavenActitime.TestSignUpToFacebook -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
