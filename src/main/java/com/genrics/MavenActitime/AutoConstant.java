@@ -15,4 +15,5 @@ public interface AutoConstant
 	String url_facebook="https://en-gb.facebook.com/";
 	String url_instagram="https://www.instagram.com/accounts/emailsignup/";
 	String url_actitime="https://demo.actitime.com";
+	String url_google="https://www.google.com";
 }

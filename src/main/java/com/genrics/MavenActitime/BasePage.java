@@ -61,42 +61,42 @@ public class BasePage
 	}
 	
 	//ExplicitWait Methods
-	public void tillVisibilityOfElementWait(WebDriver driver, WebElement element)
+	public static void tillVisibilityOfElementWait(WebDriver driver, WebElement element)
 	{
 		WebDriverWait wait=new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	
-	public void tillTitleContainsWait(WebDriver driver, String title)
+	public static void tillTitleContainsWait(WebDriver driver, String title)
 	{
 		WebDriverWait wait=new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.titleContains(title));
 	}
 	
-	public void tillTextToBePresentWait(WebDriver driver, WebElement element, String text)
+	public static void tillTextToBePresentWait(WebDriver driver, WebElement element, String text)
 	{
 		WebDriverWait wait=new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.textToBePresentInElement(element, text));
 	}
 	
 	//Popup methods
-	public void acceptAlert(WebDriver driver,WebElement element)
+	public static void acceptAlert(WebDriver driver)
 	{
 		Alert alt=driver.switchTo().alert();
 		alt.accept();
 	}
-	public void dismissAlert(WebDriver driver, WebElement element)
+	public static void dismissAlert(WebDriver driver)
 	{
 		Alert alt=driver.switchTo().alert();
 		alt.dismiss();
 	}
-	public void switchToWindowByIndex(WebDriver driver,int index)
+	public static void switchToWindowByIndex(WebDriver driver,int index)
 	{
 		Set<String> set=driver.getWindowHandles();
 		ArrayList<String> handleList=new ArrayList<String>(set);
 		driver.switchTo().window(handleList.get(index));
 	}
-	public void switchToWindowByPartialTitleText(WebDriver driver, String partialTitle)
+	public static void switchToWindowByPartialTitleText(WebDriver driver, String partialTitle)
 	{
 		Set<String> set=driver.getWindowHandles();
 		ArrayList<String> al=new ArrayList<String>(set);

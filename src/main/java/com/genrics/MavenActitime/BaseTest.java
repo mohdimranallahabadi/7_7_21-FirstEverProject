@@ -4,8 +4,10 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 public class BaseTest implements AutoConstant
@@ -34,7 +36,9 @@ public class BaseTest implements AutoConstant
 	@BeforeMethod
 	public void urlEntering()
 	{
-		if (website.contains("facebook")) {
+		if (website.contains("google")) {
+			driver.get(url_google);
+		}if (website.contains("facebook")) {
 			driver.get(url_facebook);
 		}if (website.contains("instagram")) {
 			driver.get(url_instagram);
@@ -43,7 +47,7 @@ public class BaseTest implements AutoConstant
 		}
 	}
 	
-	@AfterMethod
+	@AfterSuite//Put it here in afterSute annotation so that it doesen't close the browser
 	public void quitBrowser()
 	{
 		driver.quit();

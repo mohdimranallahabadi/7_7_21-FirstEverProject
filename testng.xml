@@ -3,7 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+       <class name="com.scripts.MavenActitime.TestGoogleSearch"/>
       <class name="com.scripts.MavenActitime.TestSignUpToFacebook"/>
+      <class name="com.scripts.MavenActitime.TestActitimeLogin"/>      
+      <class name="com.scripts.MavenActitime.TestCreateCustomerActiTime"/>
+      <class name="com.scripts.MavenActitime.TestCreateProject"/>
+      <class name="com.scripts.MavenActitime.TestDeleteProject"/>
+      <class name="com.scripts.MavenActitime.TestCreateCustDeleteActitime"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
