@@ -3,17 +3,15 @@ package com.genrics.MavenActitime;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 public class BaseTest implements AutoConstant
 {
-	public WebDriver driver;
-	public String website;
+	public static WebDriver driver;//We made this static so that we can acces it with class nam where we need
+	public static String website;
 	
 	@BeforeTest//We keep it here in this @ because it will change h website variable prior to the loading of urlEnteering method
 	public void urlChoseMethod()
