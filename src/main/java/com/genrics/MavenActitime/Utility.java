@@ -20,7 +20,8 @@ public class Utility implements ITestListener
 		File file=ts.getScreenshotAs(OutputType.FILE);//File is class of java io package..
 		//Now move above file to some location on the hard drive..By using static method copyFile of FileUtils class of java io package
 		try {
-			FileUtils.copyFile(file, new File("./screenshots/image.png"));
+			FileUtils.copyDirectory(file, new File("./screenshot"));//Use this to take many screenshots
+			FileUtils.copyFile(file, new File("./screenshots/image.png"));//Use this method to take single screenshot
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

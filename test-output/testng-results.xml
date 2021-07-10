@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="6" failed="1" ignored="5" total="15" passed="3">
+<testng-results skipped="13" failed="0" ignored="14" total="27" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="85806" started-at="2021-07-08T15:10:20 IST" finished-at="2021-07-08T15:11:46 IST">
+  <suite name="Default suite" duration-ms="49231" started-at="2021-07-10T13:25:06 IST" finished-at="2021-07-10T13:25:55 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="85806" started-at="2021-07-08T15:10:20 IST" finished-at="2021-07-08T15:11:46 IST">
+    <test name="Default test" duration-ms="49231" started-at="2021-07-10T13:25:06 IST" finished-at="2021-07-10T13:25:55 IST">
       <class name="com.scripts.MavenActitime.TestDeleteProject">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@1a3869f4]" name="openBrowser" is-config="true" duration-ms="5796" started-at="2021-07-08T15:11:31 IST" finished-at="2021-07-08T15:11:37 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@757942a1]" name="openBrowser" is-config="true" duration-ms="9706" started-at="2021-07-10T13:25:20 IST" finished-at="2021-07-10T13:25:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@1a3869f4]" name="urlEntering" is-config="true" duration-ms="0" started-at="2021-07-08T15:11:37 IST" finished-at="2021-07-08T15:11:37 IST">
+        <test-method status="FAIL" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@757942a1]" name="urlEntering" is-config="true" duration-ms="1" started-at="2021-07-10T13:25:30 IST" finished-at="2021-07-10T13:25:30 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:39)
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -54,11 +54,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlEntering -->
-        <test-method status="SKIP" signature="aloginToActitimeMethod()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@1a3869f4]" name="aloginToActitimeMethod" duration-ms="0" started-at="2021-07-08T15:11:37 IST" finished-at="2021-07-08T15:11:37 IST">
+        <test-method status="SKIP" signature="aloginToActitimeMethod()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@757942a1]" name="aloginToActitimeMethod" duration-ms="0" started-at="2021-07-10T13:25:30 IST" finished-at="2021-07-10T13:25:30 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:39)
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -97,15 +97,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aloginToActitimeMethod -->
-        <test-method status="SKIP" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@1a3869f4]" name="urlEntering" is-config="true" duration-ms="-1625737297122" started-at="2021-07-08T15:11:37 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@757942a1]" name="urlEntering" is-config="true" duration-ms="-1625903730357" started-at="2021-07-10T13:25:30 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlEntering -->
-        <test-method status="SKIP" signature="createProject()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@1a3869f4]" name="createProject" duration-ms="0" started-at="2021-07-08T15:11:37 IST" finished-at="2021-07-08T15:11:37 IST">
+        <test-method status="SKIP" signature="createProject()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@757942a1]" name="createProject" duration-ms="0" started-at="2021-07-10T13:25:30 IST" finished-at="2021-07-10T13:25:30 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:39)
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -144,15 +144,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProject -->
-        <test-method status="SKIP" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@1a3869f4]" name="urlEntering" is-config="true" duration-ms="-1625737297151" started-at="2021-07-08T15:11:37 IST" finished-at="1970-01-01T05:30:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- urlEntering -->
-        <test-method status="SKIP" signature="deleteProject()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@1a3869f4]" name="deleteProject" duration-ms="0" started-at="2021-07-08T15:11:37 IST" finished-at="2021-07-08T15:11:37 IST">
+        <test-method status="SKIP" signature="deleteProject()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@757942a1]" name="deleteProject" duration-ms="0" started-at="2021-07-10T13:25:30 IST" finished-at="2021-07-10T13:25:30 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:39)
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -191,73 +187,41 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteProject -->
+        <test-method status="SKIP" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestDeleteProject@757942a1]" name="urlEntering" is-config="true" duration-ms="-1625903730366" started-at="2021-07-10T13:25:30 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlEntering -->
       </class> <!-- com.scripts.MavenActitime.TestDeleteProject -->
-      <class name="com.scripts.MavenActitime.TestCreateCustomerActiTime">
-        <test-method status="PASS" signature="urlChoseMethod()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@13c27452]" name="urlChoseMethod" is-config="true" duration-ms="16" started-at="2021-07-08T15:10:20 IST" finished-at="2021-07-08T15:10:20 IST">
+      <class name="com.genrics.MavenActitime.BaseTest">
+        <test-method status="PASS" signature="urlChoseMethod()[pri:0, instance:com.genrics.MavenActitime.BaseTest@a38d7a3]" name="urlChoseMethod" is-config="true" duration-ms="26" started-at="2021-07-10T13:25:06 IST" finished-at="2021-07-10T13:25:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlChoseMethod -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@13c27452]" name="openBrowser" is-config="true" duration-ms="4643" started-at="2021-07-08T15:10:20 IST" finished-at="2021-07-08T15:10:25 IST">
+        <test-method status="SKIP" signature="quitBrowser()[pri:0, instance:com.genrics.MavenActitime.BaseTest@a38d7a3]" name="quitBrowser" is-config="true" duration-ms="-1625903756458" started-at="2021-07-10T13:25:56 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.genrics.MavenActitime.BaseTest -->
+      <class name="com.scripts.MavenActitime.TestSignUpToFacebook">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestSignUpToFacebook@66d1af89]" name="openBrowser" is-config="true" duration-ms="7058" started-at="2021-07-10T13:25:30 IST" finished-at="2021-07-10T13:25:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@13c27452]" name="urlEntering" is-config="true" duration-ms="9587" started-at="2021-07-08T15:10:25 IST" finished-at="2021-07-08T15:10:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- urlEntering -->
-        <test-method status="PASS" signature="aloginToActitimeMethod()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@13c27452]" name="aloginToActitimeMethod" duration-ms="1185" started-at="2021-07-08T15:10:34 IST" finished-at="2021-07-08T15:10:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aloginToActitimeMethod -->
-        <test-method status="PASS" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@13c27452]" name="urlEntering" is-config="true" duration-ms="6926" started-at="2021-07-08T15:10:35 IST" finished-at="2021-07-08T15:10:42 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- urlEntering -->
-        <test-method status="FAIL" signature="createCustomerLogin()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@13c27452]" name="createCustomerLogin" duration-ms="11512" started-at="2021-07-08T15:10:42 IST" finished-at="2021-07-08T15:10:54 IST">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <div class="title ellipsis">...</div> is not clickable at point (341, 114). Other element would receive the click: <img src="/img/default/dialogs/exitconfirm/shade.png?hash=1846506722" id="muar" style="display: block;">
-  (Session info: chrome=91.0.4472.124)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-9MKKMSB', ip: '192.168.200.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\wwwim\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51941}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fdf995227c6771453aa3d0e267a75276]]>
-            </message>
+        <test-method status="FAIL" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestSignUpToFacebook@66d1af89]" name="urlEntering" is-config="true" duration-ms="0" started-at="2021-07-10T13:25:37 IST" finished-at="2021-07-10T13:25:37 IST">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="title ellipsis">...</div> is not clickable at point (341, 114). Other element would receive the click: <img src="/img/default/dialogs/exitconfirm/shade.png?hash=1846506722" id="muar" style="display: block;">
-  (Session info: chrome=91.0.4472.124)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-9MKKMSB', ip: '192.168.200.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\wwwim\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51941}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fdf995227c6771453aa3d0e267a75276
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy11.click(Unknown Source)
-at com.pages.MavenActitime.POMCreateACustomer.addNewMethod(POMCreateACustomer.java:56)
-at com.scripts.MavenActitime.TestCreateCustomerActiTime.createCustomerLogin(TestCreateCustomerActiTime.java:25)
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -282,51 +246,434 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createCustomerLogin -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@13c27452]" name="quitBrowser" is-config="true" duration-ms="5536" started-at="2021-07-08T15:11:46 IST" finished-at="2021-07-08T15:11:52 IST">
+        </test-method> <!-- urlEntering -->
+        <test-method status="SKIP" signature="facebookSignUp()[pri:0, instance:com.scripts.MavenActitime.TestSignUpToFacebook@66d1af89]" name="facebookSignUp" duration-ms="0" started-at="2021-07-10T13:25:37 IST" finished-at="2021-07-10T13:25:37 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quitBrowser -->
-      </class> <!-- com.scripts.MavenActitime.TestCreateCustomerActiTime -->
-      <class name="com.scripts.MavenActitime.TestCreateProject">
-        <test-method status="PASS" signature="urlChoseMethod()[pri:0, instance:com.scripts.MavenActitime.TestCreateProject@77ec78b9]" name="urlChoseMethod" is-config="true" duration-ms="0" started-at="2021-07-08T15:10:20 IST" finished-at="2021-07-08T15:10:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- urlChoseMethod -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestCreateProject@77ec78b9]" name="openBrowser" is-config="true" duration-ms="3718" started-at="2021-07-08T15:10:54 IST" finished-at="2021-07-08T15:10:58 IST">
+        </test-method> <!-- facebookSignUp -->
+      </class> <!-- com.scripts.MavenActitime.TestSignUpToFacebook -->
+      <class name="com.scripts.MavenActitime.TestActitimeLogin">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestActitimeLogin@8646db9]" name="openBrowser" is-config="true" duration-ms="5888" started-at="2021-07-10T13:25:37 IST" finished-at="2021-07-10T13:25:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateProject@77ec78b9]" name="urlEntering" is-config="true" duration-ms="8799" started-at="2021-07-08T15:10:58 IST" finished-at="2021-07-08T15:11:06 IST">
+        <test-method status="FAIL" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestActitimeLogin@8646db9]" name="urlEntering" is-config="true" duration-ms="0" started-at="2021-07-10T13:25:43 IST" finished-at="2021-07-10T13:25:43 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlEntering -->
-        <test-method status="PASS" signature="aloginToActitimeMethod()[pri:0, instance:com.scripts.MavenActitime.TestCreateProject@77ec78b9]" name="aloginToActitimeMethod" duration-ms="1078" started-at="2021-07-08T15:11:06 IST" finished-at="2021-07-08T15:11:07 IST">
+        <test-method status="SKIP" signature="aloginToActitimeMethod()[pri:0, instance:com.scripts.MavenActitime.TestActitimeLogin@8646db9]" name="aloginToActitimeMethod" duration-ms="0" started-at="2021-07-10T13:25:43 IST" finished-at="2021-07-10T13:25:43 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aloginToActitimeMethod -->
-        <test-method status="PASS" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateProject@77ec78b9]" name="urlEntering" is-config="true" duration-ms="6415" started-at="2021-07-08T15:11:07 IST" finished-at="2021-07-08T15:11:14 IST">
+      </class> <!-- com.scripts.MavenActitime.TestActitimeLogin -->
+      <class name="com.scripts.MavenActitime.TestCreateCustomerActiTime">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@462d5aee]" name="openBrowser" is-config="true" duration-ms="7076" started-at="2021-07-10T13:25:06 IST" finished-at="2021-07-10T13:25:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@462d5aee]" name="urlEntering" is-config="true" duration-ms="1" started-at="2021-07-10T13:25:13 IST" finished-at="2021-07-10T13:25:13 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlEntering -->
-        <test-method status="PASS" signature="createProject()[pri:0, instance:com.scripts.MavenActitime.TestCreateProject@77ec78b9]" name="createProject" duration-ms="16900" started-at="2021-07-08T15:11:14 IST" finished-at="2021-07-08T15:11:31 IST">
+        <test-method status="SKIP" signature="aloginToActitimeMethod()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@462d5aee]" name="aloginToActitimeMethod" duration-ms="0" started-at="2021-07-10T13:25:13 IST" finished-at="2021-07-10T13:25:13 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aloginToActitimeMethod -->
+        <test-method status="SKIP" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@462d5aee]" name="urlEntering" is-config="true" duration-ms="-1625903713901" started-at="2021-07-10T13:25:13 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlEntering -->
+        <test-method status="SKIP" signature="createCustomerLogin()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustomerActiTime@462d5aee]" name="createCustomerLogin" duration-ms="0" started-at="2021-07-10T13:25:13 IST" finished-at="2021-07-10T13:25:13 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerLogin -->
+      </class> <!-- com.scripts.MavenActitime.TestCreateCustomerActiTime -->
+      <class name="com.scripts.MavenActitime.TestCreateProject">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestCreateProject@69b0fd6f]" name="openBrowser" is-config="true" duration-ms="6655" started-at="2021-07-10T13:25:13 IST" finished-at="2021-07-10T13:25:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateProject@69b0fd6f]" name="urlEntering" is-config="true" duration-ms="2" started-at="2021-07-10T13:25:20 IST" finished-at="2021-07-10T13:25:20 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlEntering -->
+        <test-method status="SKIP" signature="aloginToActitimeMethod()[pri:0, instance:com.scripts.MavenActitime.TestCreateProject@69b0fd6f]" name="aloginToActitimeMethod" duration-ms="0" started-at="2021-07-10T13:25:20 IST" finished-at="2021-07-10T13:25:20 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aloginToActitimeMethod -->
+        <test-method status="SKIP" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateProject@69b0fd6f]" name="urlEntering" is-config="true" duration-ms="-1625903720609" started-at="2021-07-10T13:25:20 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlEntering -->
+        <test-method status="SKIP" signature="createProject()[pri:0, instance:com.scripts.MavenActitime.TestCreateProject@69b0fd6f]" name="createProject" duration-ms="0" started-at="2021-07-10T13:25:20 IST" finished-at="2021-07-10T13:25:20 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProject -->
       </class> <!-- com.scripts.MavenActitime.TestCreateProject -->
-      <class name="com.scripts.MavenActitime.TestCreateCustDeleteActitime">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@77f99a05]" name="openBrowser" is-config="true" duration-ms="8798" started-at="2021-07-08T15:11:37 IST" finished-at="2021-07-08T15:11:45 IST">
+      <class name="com.scripts.MavenActitime.TestGoogleSearch">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestGoogleSearch@37374a5e]" name="openBrowser" is-config="true" duration-ms="6757" started-at="2021-07-10T13:25:43 IST" finished-at="2021-07-10T13:25:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@77f99a05]" name="urlEntering" is-config="true" duration-ms="1" started-at="2021-07-08T15:11:45 IST" finished-at="2021-07-08T15:11:45 IST">
+        <test-method status="FAIL" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestGoogleSearch@37374a5e]" name="urlEntering" is-config="true" duration-ms="2" started-at="2021-07-10T13:25:50 IST" finished-at="2021-07-10T13:25:50 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:39)
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -365,11 +712,103 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlEntering -->
-        <test-method status="SKIP" signature="aloginToActitimeMethod()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@77f99a05]" name="aloginToActitimeMethod" duration-ms="0" started-at="2021-07-08T15:11:45 IST" finished-at="2021-07-08T15:11:45 IST">
+        <test-method status="SKIP" signature="gooSuggest()[pri:0, instance:com.scripts.MavenActitime.TestGoogleSearch@37374a5e]" name="gooSuggest" duration-ms="0" started-at="2021-07-10T13:25:50 IST" finished-at="2021-07-10T13:25:50 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:39)
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gooSuggest -->
+      </class> <!-- com.scripts.MavenActitime.TestGoogleSearch -->
+      <class name="com.scripts.MavenActitime.TestCreateCustDeleteActitime">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@4671e53b]" name="openBrowser" is-config="true" duration-ms="5728" started-at="2021-07-10T13:25:50 IST" finished-at="2021-07-10T13:25:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@4671e53b]" name="urlEntering" is-config="true" duration-ms="1" started-at="2021-07-10T13:25:55 IST" finished-at="2021-07-10T13:25:55 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlEntering -->
+        <test-method status="SKIP" signature="aloginToActitimeMethod()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@4671e53b]" name="aloginToActitimeMethod" duration-ms="0" started-at="2021-07-10T13:25:55 IST" finished-at="2021-07-10T13:25:55 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -408,15 +847,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aloginToActitimeMethod -->
-        <test-method status="SKIP" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@77f99a05]" name="urlEntering" is-config="true" duration-ms="-1625737305998" started-at="2021-07-08T15:11:45 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@4671e53b]" name="urlEntering" is-config="true" duration-ms="-1625903755877" started-at="2021-07-10T13:25:55 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlEntering -->
-        <test-method status="SKIP" signature="createDeleteCustActMethod()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@77f99a05]" name="createDeleteCustActMethod" duration-ms="0" started-at="2021-07-08T15:11:45 IST" finished-at="2021-07-08T15:11:45 IST">
+        <test-method status="SKIP" signature="createDeleteCustActMethod()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@4671e53b]" name="createDeleteCustActMethod" duration-ms="0" started-at="2021-07-10T13:25:55 IST" finished-at="2021-07-10T13:25:55 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:39)
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -455,15 +894,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDeleteCustActMethod -->
-        <test-method status="SKIP" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@77f99a05]" name="urlEntering" is-config="true" duration-ms="-1625737306003" started-at="2021-07-08T15:11:46 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="urlEntering()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@4671e53b]" name="urlEntering" is-config="true" duration-ms="-1625903755885" started-at="2021-07-10T13:25:55 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlEntering -->
-        <test-method status="SKIP" signature="createCustomerLogin()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@77f99a05]" name="createCustomerLogin" duration-ms="0" started-at="2021-07-08T15:11:46 IST" finished-at="2021-07-08T15:11:46 IST">
+        <test-method status="SKIP" signature="createCustomerLogin()[pri:0, instance:com.scripts.MavenActitime.TestCreateCustDeleteActitime@4671e53b]" name="createCustomerLogin" duration-ms="0" started-at="2021-07-10T13:25:55 IST" finished-at="2021-07-10T13:25:55 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:39)
+at com.genrics.MavenActitime.BaseTest.urlEntering(BaseTest.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -503,6 +942,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- createCustomerLogin -->
       </class> <!-- com.scripts.MavenActitime.TestCreateCustDeleteActitime -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

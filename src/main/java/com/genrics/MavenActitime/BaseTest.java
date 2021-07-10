@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 public class BaseTest implements AutoConstant
 {
 	public static WebDriver driver;//We made this static so that we can acces it with class nam where we need
-	public static String website;
+	public String website;
 	
 	@BeforeTest//We keep it here in this @ because it will change h website variable prior to the loading of urlEnteering method
 	public void urlChoseMethod()

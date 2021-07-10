@@ -12,8 +12,10 @@ public class ExcelLiberary implements AutoConstant
 	{
 		FileInputStream fis=new FileInputStream(excelsheet_path);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
-		String cell_value=wb.getSheet(excellsheet_name).getRow(row_num).getCell(cell_num).getStringCellValue();
+		/*String cell_value=wb.getSheet(excellsheet_name).getRow(row_num).getCell(cell_num).getStringCellValue();
 		wb.close();
-		return cell_value;
+		return cell_value;*/
+		//Code Optmization
+		return wb.getSheet(excellsheet_name).getRow(row_num).getCell(cell_num).getStringCellValue();
 	}
 }
